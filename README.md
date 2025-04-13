@@ -26,3 +26,32 @@ The Edamam platform provides a reliable Recipe Search API to retrieve food recip
   - VITE_API_KEY= "Paste your Key"
   - VITE_API_ID= "Paste your Id"
   - VITE_USER_ID= "Paste your user Id"  # Replace with your Edamam user ID
+
+
+Here's how to include this information in your GitHub project documentation:
+
+---
+
+###### Steps to Run the Application
+
+To launch the Food Recipe Finder application on your local machine, follow these steps:
+
+1. **Install All Dependencies**:
+   Run the following command in the terminal from the root directory of your project to install all the required packages:
+   ```bash
+   npm install
+   ```
+
+2. **Start the Application**:
+   Use the following command to start the development server:
+   ```bash
+   npm start
+   ```
+
+3. **Access the Application**:
+   Once the server is up and running, open your browser and navigate to:
+   [http://localhost:3000/](http://localhost:3000/), check for the port number
+   
+   You'll see the application interface displaying the food recipes fetched from the API.
+
+-
