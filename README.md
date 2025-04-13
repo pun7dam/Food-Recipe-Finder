@@ -8,8 +8,8 @@ This application features a dedicated component to display food recipes. The rec
 The Edamam platform provides a reliable Recipe Search API to retrieve food recipes. Below is a step-by-step guide to obtaining the necessary API keys for integration:
 
 1. Sign Up on Edamam:-
-  -- Visit Edamam Developer Portal
-  -- Create an account by signing up using your email.
+  -- # Visit Edamam Developer Portal
+  -- # Create an account by signing up using your email.
 
 2. Access the APIs Section
   --After logging in, navigate to the APIs section in the top navigation bar.
