@@ -53,5 +53,3 @@ To launch the Food Recipe Finder application on your local machine, follow these
    [http://localhost:3000/](http://localhost:3000/), check for the port number
    
    You'll see the application interface displaying the food recipes fetched from the API.
-
--
