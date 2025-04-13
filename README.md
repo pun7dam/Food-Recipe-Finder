@@ -5,23 +5,23 @@ This application features a dedicated component to display food recipes. The rec
 
 ## Fetching Food Recipes: Setting Up the Edamam API
 
-To retrieve food recipes, the Edamam platform provides a reliable Recipe Search API. Below is a step-by-step guide to obtaining the necessary API keys for integration:
+The Edamam platform provides a reliable Recipe Search API to retrieve food recipes. Below is a step-by-step guide to obtaining the necessary API keys for integration:
 
-1.Sign Up on Edamam:-
-  -Visit Edamam Developer Portal
-  -Create an account by signing up with your email.
+1. Sign Up on Edamam:-
+  -- Visit Edamam Developer Portal
+  -- Create an account by signing up using your email.
 
-2.Access the APIs Section
-  -After logging in, navigate to the APIs section in the top navigation bar.
-  -Click on Start Now under the Developer section.
-  -Go to the Dashboard located at the top-right corner of the page.
-  -Select Application from the left-side menu.
-  -Locate the Recipe Search API:- In the Application section, find the option labeled "Recipe Search API."
-  -Click on View to access details for this API.
+2. Access the APIs Section
+  --After logging in, navigate to the APIs section in the top navigation bar.
+  --Click on Start Now under the Developer section.
+  --Go to the Dashboard located at the top-right corner of the page.
+  --Select Application from the left-side menu.
+  --Locate the Recipe Search API: In the Application section, find the option labeled "Recipe Search API."
+  --Click on View to access details for this API.
 
-3.Retrieve Application ID and Key
-  -Copy your Application ID and Application Key  from the Recipe Search API section and get the UserID/Username.
-  -Store these securely, .env file as they'll be required for API integration within our app.
+3. Retrieve Application ID and Key
+  --Copy your Application ID and Application Key  from the Recipe Search API section and get the UserID/Username.
+  --Store these securely, .env file as they'll be required for API integration within our app.
 
   VITE_API_KEY= "Paste your Key"
   VITE_API_ID= "Paste your Id"
