@@ -81,15 +81,12 @@ const FoodRecipe = () => {
 
   return (
     <div className="py-10 px-4 mx-auto container">
-      <h1 className="my-5 text-2xl font-semibold mb-4text-center shadow-2xs shadow-cyan-300 font-serif text-center">
+      <h1 className="my-5 text-2xl font-semibold mb-4 shadow-2xs shadow-cyan-300 font-serif text-center w-1/2 mx-auto">
         Food Recipe Finder
       </h1>
-      <form
-        className="flex justify-center mb-6 shadow-2xs"
-        onSubmit={onSubmitSearch}
-      >
+      <form className="flex justify-center mb-6" onSubmit={onSubmitSearch}>
         <input
-          className="search-bar border border-gray-300 rounded-l px-4 py-2 w-full focus:outline focus:outline-sky-500 text-center"
+          className="search-bar border border-gray-300 rounded-l px-4 py-2 w-1/2 focus:outline focus:outline-sky-500 text-center"
           type="text"
           placeholder="Search for a recipe..."
           value={search}
